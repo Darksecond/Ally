@@ -107,6 +107,29 @@ public class Controller
         AllyUSB.SendNext(device);
         AllyUSB.SendMapping(device, ButtonCode.DpadLeft_DpadRight, DPadLeft, DPadRight);
 
+        AllyUSB.SendNext(device);
+        AllyUSB.SendMapping(device, ButtonCode.L3_R3, L3, R3);
+
+        AllyUSB.SendNext(device);
+        AllyUSB.SendMapping(device, ButtonCode.LB_RB, LeftButton, RightButton);
+
+        AllyUSB.SendNext(device);
+        AllyUSB.SendMapping(device, ButtonCode.A_B, A, B);
+
+        AllyUSB.SendNext(device);
+        AllyUSB.SendMapping(device, ButtonCode.X_Y, X, Y);
+
+        AllyUSB.SendNext(device);
+        AllyUSB.SendMapping(device, ButtonCode.View_Menu, View, Menu);
+
+        AllyUSB.SendNext(device);
+        AllyUSB.SendMapping(device, ButtonCode.M2_M1, M2, M1);
+
+        AllyUSB.SendNext(device);
+        AllyUSB.SendMapping(device, ButtonCode.LT_RT, LeftTrigger, RightTrigger);
+
         AllyUSB.SendApply(device);
+
+        //TODO Send the 3 calibration/deadzone packets
     }
 }
