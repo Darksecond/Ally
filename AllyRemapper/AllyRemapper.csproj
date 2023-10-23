@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="hidlibrary" Version="3.3.40" />
+    <ProjectReference Include="..\Ally.HID\Ally.HID.csproj" />
   </ItemGroup>
 
 </Project>
