@@ -10,6 +10,19 @@
   <ItemGroup>
     <ProjectReference Include="..\Ally.ACPI\Ally.ACPI.csproj" />
     <ProjectReference Include="..\Ally.HID\Ally.HID.csproj" />
+    <ProjectReference Include="..\Ally.RyzenMaster\Ally.RyzenMaster.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Device.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Platform.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="RyzenMasterWrapper.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
