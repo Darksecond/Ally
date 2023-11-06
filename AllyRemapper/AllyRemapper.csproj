@@ -8,12 +8,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Ally.ACPI\Ally.ACPI.csproj" />
     <ProjectReference Include="..\Ally.HID\Ally.HID.csproj" />
     <ProjectReference Include="..\Ally.RyzenMaster\Ally.RyzenMaster.csproj" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="DefaultDesktopProfile.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="DefaultXboxProfile.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="Device.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

@@ -9,28 +9,37 @@ public readonly struct Mapping
     public MouseCode Mouse { get; }
     public KeyboardCode[]? Macro { get; }
 
+    public Mapping()
+    {
+        this.Macro = Array.Empty<KeyboardCode>();
+    }
+
     public Mapping(ControllerCode controller)
     {
         this.Type = MappingType.Controller;
         this.Controller = controller;
+        this.Macro = Array.Empty<KeyboardCode>();
     }
 
     public Mapping(KeyboardCode keyboard)
     {
         this.Type = MappingType.Keyboard;
         this.Keyboard = keyboard;
+        this.Macro = Array.Empty<KeyboardCode>();
     }
 
     public Mapping(MouseCode mouse)
     {
         this.Type = MappingType.Mouse;
         this.Mouse = mouse;
+        this.Macro = Array.Empty<KeyboardCode>();
     }
 
     public Mapping(ActionCode action)
     {
         this.Type = MappingType.Action;
         this.Action = action;
+        this.Macro = Array.Empty<KeyboardCode>();
     }
 
     public Mapping(KeyboardCode[] macro)

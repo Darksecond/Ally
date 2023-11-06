@@ -1,0 +1,343 @@
+{
+  "Layout": "Xbox",
+  "A": {
+    "Primary": {
+      "Type": "Controller",
+      "Controller": "A",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    },
+    "Secondary": {
+      "Type": "Action",
+      "Controller": "Disabled",
+      "Keyboard": "Disabled",
+      "Action": "Screenshot",
+      "Mouse": "Disabled",
+      "Macro": []
+    }
+  },
+  "B": {
+    "Primary": {
+      "Type": "Controller",
+      "Controller": "B",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    },
+    "Secondary": {
+      "Type": "Macro",
+      "Controller": "Disabled",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": [
+        "Windows",
+        "N"
+      ]
+    }
+  },
+  "X": {
+    "Primary": {
+      "Type": "Controller",
+      "Controller": "X",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    },
+    "Secondary": {
+      "Type": "Macro",
+      "Controller": "Disabled",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": [
+        "Windows",
+        "P"
+      ]
+    }
+  },
+  "Y": {
+    "Primary": {
+      "Type": "Controller",
+      "Controller": "Y",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    },
+    "Secondary": {
+      "Type": "Action",
+      "Controller": "Disabled",
+      "Keyboard": "Disabled",
+      "Action": "BeginRecording",
+      "Mouse": "Disabled",
+      "Macro": []
+    }
+  },
+  "DPadUp": {
+    "Primary": {
+      "Type": "Controller",
+      "Controller": "UP",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    },
+    "Secondary": {
+      "Type": "Action",
+      "Controller": "Disabled",
+      "Keyboard": "Disabled",
+      "Action": "ShowKeyboard",
+      "Mouse": "Disabled",
+      "Macro": []
+    }
+  },
+  "DPadDown": {
+    "Primary": {
+      "Type": "Controller",
+      "Controller": "DOWN",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    },
+    "Secondary": {
+      "Type": "Macro",
+      "Controller": "Disabled",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": [
+        "LeftControl",
+        "LeftShift",
+        "Escape"
+      ]
+    }
+  },
+  "DPadLeft": {
+    "Primary": {
+      "Type": "Controller",
+      "Controller": "LEFT",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    },
+    "Secondary": {
+      "Type": "Macro",
+      "Controller": "Disabled",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": [
+        "Windows",
+        "D"
+      ]
+    }
+  },
+  "DPadRight": {
+    "Primary": {
+      "Type": "Controller",
+      "Controller": "RIGHT",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    },
+    "Secondary": {
+      "Type": "Macro",
+      "Controller": "Disabled",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": [
+        "Windows",
+        "Tab"
+      ]
+    }
+  },
+  "LeftTrigger": {
+    "Primary": {
+      "Type": "Controller",
+      "Controller": "LT",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    },
+    "Secondary": {
+      "Type": "Disabled",
+      "Controller": "Disabled",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    }
+  },
+  "LeftButton": {
+    "Primary": {
+      "Type": "Controller",
+      "Controller": "LB",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    },
+    "Secondary": {
+      "Type": "Disabled",
+      "Controller": "Disabled",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    }
+  },
+  "RightTrigger": {
+    "Primary": {
+      "Type": "Controller",
+      "Controller": "RT",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    },
+    "Secondary": {
+      "Type": "Disabled",
+      "Controller": "Disabled",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    }
+  },
+  "RightButton": {
+    "Primary": {
+      "Type": "Controller",
+      "Controller": "RB",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    },
+    "Secondary": {
+      "Type": "Disabled",
+      "Controller": "Disabled",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    }
+  },
+  "L3": {
+    "Primary": {
+      "Type": "Controller",
+      "Controller": "L3",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    },
+    "Secondary": {
+      "Type": "Disabled",
+      "Controller": "Disabled",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    }
+  },
+  "R3": {
+    "Primary": {
+      "Type": "Controller",
+      "Controller": "R3",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    },
+    "Secondary": {
+      "Type": "Disabled",
+      "Controller": "Disabled",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    }
+  },
+  "View": {
+    "Primary": {
+      "Type": "Controller",
+      "Controller": "VIEW",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    },
+    "Secondary": {
+      "Type": "Disabled",
+      "Controller": "Disabled",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    }
+  },
+  "Menu": {
+    "Primary": {
+      "Type": "Controller",
+      "Controller": "MENU",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    },
+    "Secondary": {
+      "Type": "Disabled",
+      "Controller": "Disabled",
+      "Keyboard": "Disabled",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    }
+  },
+  "M1": {
+    "Primary": {
+      "Type": "Keyboard",
+      "Controller": "Disabled",
+      "Keyboard": "M1",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    },
+    "Secondary": {
+      "Type": "Keyboard",
+      "Controller": "Disabled",
+      "Keyboard": "M1",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    }
+  },
+  "M2": {
+    "Primary": {
+      "Type": "Keyboard",
+      "Controller": "Disabled",
+      "Keyboard": "M2",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    },
+    "Secondary": {
+      "Type": "Keyboard",
+      "Controller": "Disabled",
+      "Keyboard": "M2",
+      "Action": "Disabled",
+      "Mouse": "Disabled",
+      "Macro": []
+    }
+  }
+}

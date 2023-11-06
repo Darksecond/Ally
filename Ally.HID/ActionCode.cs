@@ -2,6 +2,7 @@
 
 public enum ActionCode : byte
 {
+    Disabled = 0x00,
     MicrophoneOff = 0x01,
     VolumeDown = 0x02,
     VolumeUp = 0x03,
