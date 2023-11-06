@@ -37,6 +37,7 @@ Options:
   --set-cpu-tdp <set-cpu-tdp>        Set the cpu TDP
   --set-slow-tdp <set-slow-tdp>      Set the slow TDP
   --set-fast-tdp <set-fast-tdp>      Set the fast TDP
+  --set-power-profile <Balanced|Manual|Silent|Turbo>  Set the power profile
   --version                          Show version information
   -?, -h, --help                     Show help and usage information
 ```

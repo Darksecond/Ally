@@ -48,6 +48,7 @@ public static class Program
         var cpuTDP = new Option<uint?>(name: "--set-cpu-tdp", description: "Set the cpu TDP");
         var slowTDP = new Option<uint?>(name: "--set-slow-tdp", description: "Set the slow TDP");
         var fastTDP = new Option<uint?>(name: "--set-fast-tdp", description: "Set the fast TDP");
+        var powerProfile = new Option<PowerProfile?>(name: "--set-power-profile", description: "Set the power profile");
 
         var rootCommand = new RootCommand("A tool to help set system settings.")
         {
@@ -56,9 +57,10 @@ public static class Program
             cpuTDP,
             slowTDP,
             fastTDP,
+            powerProfile,
         };
 
-        rootCommand.SetHandler((profile, systemTDP, cpuTDP, slowTDP, fastTDP) => 
+        rootCommand.SetHandler((profile, systemTDP, cpuTDP, slowTDP, fastTDP, powerProfile) => 
         {
             if (profile != null)
             {
@@ -114,7 +116,14 @@ public static class Program
                 Console.WriteLine($"Setting fast TDP to {fastTDP.Value}");
                 acpi.DeviceSet(AllyACPI.CPU_FAST_PPT, fastTDP.Value);
             }
-        }, profile, systemTDP, cpuTDP, slowTDP, fastTDP);
+
+            if (powerProfile.HasValue)
+            {
+                acpi.Open();
+                Console.WriteLine("Setting power profile");
+                Power.SetPowerProfile(acpi, powerProfile.Value);
+            }
+        }, profile, systemTDP, cpuTDP, slowTDP, fastTDP, powerProfile);
 
         await rootCommand.InvokeAsync(args);
     }
